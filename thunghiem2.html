@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form>
+<h1>Do you love me</h1>
+  <script>
+    function yes(){
+    alert("yêu anh là chuẩn con mẹ nấu rồi")}
+    function noHover()
+    {
+      var x = Math.round(Math.random() * window.innerWidth);
+      var y = Math.round(Math.random() * window.innerHeight);
+      document.getElementById('btnNo').style.left = x + 'px';
+      document.getElementById('btnNo').style.top = y + 'px';
+    }
+
+  </script>
+  <button onclick="yes()">Yes</button>
+  <input type="button" id="btnNo" value="  NO  " onmouseover="noHover()" style="position: absolute; left: 719px; top: 585px;">
+</form>
+
+</body>
+</html>
+
+

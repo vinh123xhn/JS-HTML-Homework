@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>mang</title>
+</head>
+<body>
+<!--<input type="text" id="nhap" />
+<button type="submit" id="add" value="ADD" onclick="add_element_to_array();">ADD</button>
+<button type="submit" id="in" value="display" onclick="display_array();">Display</button>
+<script>
+  var x = 0;
+  var array = Array();
+    function add_element_to_array() {
+      array[x] = document.getElementById('nhap').value;
+      alert("Element: " + array[x] + "Add at index" + x)
+      x++;
+      document.getElementById("nhap").value = '';
+      }
+  function display_array() {
+    var e = "<hr/>";
+    for (var i=0; i<array.length; i++) {
+      e += "Element " + i + " = " + array[i] + "<br/>";
+    }
+    document.getElementById("in").innerHTML = e;
+  }
+</script>
+<script>
+  var x = [-3,5,1,3,2,10];
+  var first = 0;
+  var last = x.length - 1;
+  while (first < last) {
+    var b = x[first];
+    x[first] = x[last];
+    x[last] = b;
+    first++;
+    last--;
+  }
+  document.write(x);
+</script>
+<script>
+var value = prompt("Enter a number: ");
+var x = [-3,5,1,3,2,10];
+for(var i = 0; i < x.length; i++){
+  if(value == x[i]){
+    alert("Value " + x[i] + "found at " + i);
+  }
+}
+</script>
+<script>
+var x = [-3,5,1,3,2,10];
+var max = x[0];
+var index = 0;
+for (var i = 1; i < x.length; i++){
+  if (x[i]>max){
+    max = x[i];
+    index = i;
+  }
+}
+alert("max: " + max + " at position " + index);
+
+</script>
+<form>
+<input type="text" id="cantim"/>
+<button type="submit" id="tim" onclick="timkiem()">Tìm kiếm</button>
+<script>
+  var ta = ['love', 'hate', 'live', 'life', 'lie'];
+  var tv = ['yêu', 'ghét', 'ở', 'sống', 'nói dối'];
+  var t;
+  function timkiem() {
+    t = document.getElementById('cantim').value;
+
+    for (var i = 0; i < ta.length; i++) {
+      if (t === ta[i]) {
+        document.write(i);
+        document.write(tv[i]);
+      }else {
+
+      alert("không có rồi")
+      }
+    }
+  }
+
+</script>
+</form>
+<script>
+  var numB = [1,2,4,6,8,10,11,16,15,20];
+  var i;
+  var max = 10;
+  for (i=0; i < numB.length; i++){
+    if (numB[i] > max){
+      document.write(numB[i] + '<br>');
+    }
+  }
+</script>
+<script>
+  var numB = [2, 4, 6, 8, 7, 10, 31, 45, 74, 81, 42];
+  var i;
+  var max= numB[0];
+  for (i = 0; i < numB.length; i++) {
+    if (numB[i] > max) {
+      max = numB[i];
+    }
+  }
+  document.write(max + '<br>');
+</script>
+<script>
+  var numB = [2, 4, 6, 8, 7, 10, 31, 45, 74, 81, 42];
+  var i;
+  var max= numB[0];
+  var tong = 0;
+  var sotb;
+  for (i = 0; i < numB.length; i++) {
+    if (numB[i] > max) {
+      max = numB[i];
+    }
+    tong = tong + numB[i];
+  } sotb = (tong / numB.length);
+  document.write(sotb + '<br>');
+  document.write(max + '<br>');
+</script>-->
+
+</body>
+</html>

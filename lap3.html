@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>lap3</title>
+</head>
+<body>
+      <!--<h1>Đếm từ 1 đến 100</h1>
+      <p id="batdau"></p>
+  <script>
+    var i;
+    var text = "";
+    for ( i = 1; i <= 100; i++){
+      text += "the number ís" + i + "<br>";
+      if (i === 99){
+        alert("đã gần hết vòng lặp")
+      }
+    }
+
+    document.getElementById('batdau').innerHTML = text;
+  </script>
+    <script>
+      var nhietdo = prompt("nhập nhiệt độ vào",'');
+       while(nhietdo > 0) {
+       if (nhietdo > 100){
+         nhietdo = prompt("giam nhiet do",'');
+       }
+       if (nhietdo < 20){
+         nhietdo = prompt("tăng nhiệt độ", '');
+       }
+       if (nhietdo = 20 && 100 >= nhietdo){
+           nhietdo = prompt("tiếp tục nhập",'');
+       }
+    </script>
+      <h1>Đếm từ 1 đến 100</h1>
+      <p id="batdau"></p>
+  <script>
+    var i;
+    for (i = 1 ; i < 101; i++ ) {
+      if (i%3 === 0 && i%5 !== 0) {
+        document.write("Fizz"+'<br>');
+      } else if (i%5 === 0 && i%3 !== 0){
+        document.write("Buzz"+ '<br>');
+      } else if (i%3 === 0 && i%5 === 0){
+        document.write("FizzBuzz" + '<br>');
+      } else {
+      document.write("The Number is " + i + '<br>');}
+    }
+    </script>
+      <button type="submit" onclick="batdau()" value="Chơi">chơi</button>
+    <script>
+      function batdau() {
+        var max = parseInt(prompt("nhập vào số lớn nhất",''));
+        var min = parseInt(prompt("Nhập vào số nhỏ nhất",''));
+        var sodung = Math.floor(Math.random()*(max-min) + 2);
+        document.write(sodung + '<br>');
+
+        for(var i = 1; i <=3; i++){
+          var sodoan = parseInt(prompt("Nhập số bạn đoán",''));
+          if (sodoan === sodung){
+            document.write("bạn đoán đúng rồi" + '<br>')
+          }
+          else {
+            document.write("sai rồi bạn ơi" + '<br>')
+          }
+        }
+      }
+    </script>-->
+</body>
+</html>

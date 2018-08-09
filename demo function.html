@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ham1</title>
+</head>
+<body>
+    <script>
+      function procesconfirm(answer) {
+        var result = '';
+        if (answer){
+          result = "Excellent. We'll play a nice game of chess.";
+        } else {
+          result = "Maybe later then";
+        }
+        return result;
+      }
+    </script>
+    <script>
+      var confirmanswer = confirm("Shall we play a game?");
+      var theanswer = procesconfirm(confirmanswer);
+      alert(theanswer);
+    </script>
+</body>
+</html>
